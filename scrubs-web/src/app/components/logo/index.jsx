@@ -39,7 +39,7 @@ export function Logo() {
       <Image>
         <img src={CarLogoImg} />
       </Image>
-      <LogoText>Hicar.</LogoText>
+      <LogoText>CompareCar.</LogoText>
     </LogoContainer>
   );
 }

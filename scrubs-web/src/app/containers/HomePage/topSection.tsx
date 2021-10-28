@@ -144,23 +144,23 @@ export function TopSection() {
   return (
     <TopSectionContainer>
       <LeftContainer>
-        <Slogan>Rent The Best Quality Car's With Us</Slogan>
+        <Slogan>Compare Cars with us</Slogan>
         <Description>
-          Always choose the best car from our local stores or order it remotely
+          Always choose the best car from your local stores or order it remotely
           at the best price for you and get the best quality cars for as long as
           you like
         </Description>
         <ButtonsContainer>
-          <Button text="Book Your Ride" />
-          <Button theme="filled" text="Sell Your Car" />
+          <Button text="Start Comparing" />
+          <Button theme="filled" text="Read Reviews" />
         </ButtonsContainer>
       </LeftContainer>
       <RightContainer>
-        <BlobContainer>
-          <img src={BlobImg} />
-        </BlobContainer>
+        {/* <BlobContainer>
+          <img src={BlobImg} /> 
+        </BlobContainer> */}
         <StandaloneCar>
-          <img src={MclarenCarImg} />
+          <img src="https://imgd.aeplcdn.com/664x374/n/nuie9sa_1463560.jpg?q=85" />
         </StandaloneCar>
       </RightContainer>
     </TopSectionContainer>
